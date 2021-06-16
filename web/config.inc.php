@@ -54,6 +54,6 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_SQLite', 'typecho_');
 $db->addServer(array (
-  'file' => '/www/wwwroot/192.168.1.209/usr/60c9c1021100b.db',
+  'file' => $_SERVER['DOCUMENT_ROOT'].'/usr/60c9c1021100b.db',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
