@@ -15,6 +15,7 @@
     "platform": {
         "ext-gd": "*",
         "ext-mbstring": "*",
+        "ext-pdo_sqlite": "*",
         "php": "7.*"
     },
     "platform-dev": [],
